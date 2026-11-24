@@ -1,0 +1,80 @@
+/* CryptoChain Option Chain Table Styles */
+
+.option-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    color: #1f2937;
+}
+
+.option-table th {
+    background-color: #f0f2f6;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.option-table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: center;
+    color: #1f2937;
+}
+
+/* Column Types: calls red, puts green */
+.call-column {
+    background-color: #fed7d7;
+}
+
+.put-column {
+    background-color: #dcfce7;
+}
+
+.strike-column {
+    background-color: #fbbf24;
+    font-weight: bold;
+}
+
+.left-only-column {
+    background-color: #dbeafe;
+    color: #1e40af;
+    font-weight: 500;
+}
+
+.left-only-header {
+    background-color: #dbeafe !important;
+    color: #1e40af !important;
+}
+
+/* Special Rows */
+.totals-row {
+    background-color: #f3f4f6;
+    font-weight: bold;
+    border-top: 2px solid #374151;
+}
+
+.totals-row td {
+    border-top: 2px solid #374151;
+}
+
+.underlying-row {
+    background-color: #eff6ff;
+    border-top: 2px solid #3b82f6;
+    border-bottom: 2px solid #3b82f6;
+    font-weight: bold;
+}
+
+.underlying-row td {
+    border-top: 2px solid #3b82f6;
+    border-bottom: 2px solid #3b82f6;
+    color: #1e40af;
+}
+
+.option-table-container {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

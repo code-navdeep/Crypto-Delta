@@ -1,0 +1,9 @@
+services:
+  cryptochain:
+    build: .
+    container_name: cryptochain
+    ports:
+      - "127.0.0.1:8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped

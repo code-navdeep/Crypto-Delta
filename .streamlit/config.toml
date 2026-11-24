@@ -1,0 +1,15 @@
+[global]
+showWarningOnDirectExecution = false
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[logger]
+level = "error"
+messageFormat = "%(message)s"
+
+[server]
+enableStaticServing = false
+runOnSave = false
+fileWatcherType = "none"
